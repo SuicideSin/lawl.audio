@@ -1,0 +1,69 @@
+html {
+  /** From subtlepatterns.com */
+  background-image: url('./assets/style/rebel.png');
+  font-family: 'News Cycle';
+  color: #fff;
+}
+
+main {
+  /** TODO: Responsive Grid. */
+  width: 768px; /* (250 + (3*2)) * 3 */
+  margin: auto;
+}
+
+h1 {
+  font-family: 'Seymour One';
+}
+
+/** List is rendered without style */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  width: 250px;
+  height: 250px;
+  padding: 0;
+  margin: 0;
+  border: 3px solid rgba(0, 0, 0, 0.0);
+}
+
+li:hover {
+  border: 3px solid #fff;
+}
+
+/** Track items. */
+.track {
+  width: 250px;
+  height: 250px;
+  background-size: 250px 250px;
+  background-repeat: no-repeat;
+
+  /** Disallow selecting text, change pointer. */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  cursor: pointer;
+
+  /** Label */
+  padding: 0px 10px;
+}
+
+.track:hover {
+  background-image: none;
+}
+
+.track span {
+  font-size: 2em;
+  color: #fff;
+  text-shadow: 2px 2px #000;
+}
+
+/** Templates are hidden */
+#templates {
+  display: none;
+}
+

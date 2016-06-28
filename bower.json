@@ -1,0 +1,21 @@
+{
+  "name": "lawl.audio",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Brandon Thomas <echelon@gmail.com>"
+  ],
+  "license": "none",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "buzz": "^1.2.0"
+  }
+}
